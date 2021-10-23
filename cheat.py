@@ -191,3 +191,42 @@ if a > b or b > a:
 else:
     print("No conditions met")
 
+#---------------------------
+# While loops 
+#--------------------------
+
+washing = True # setting washing to true
+while washing:  # basically saying while washing is equal to True it should continuously do a task until it is false 
+    print("hello") # this would print hello continuously until washing is false or until the program is stopped
+    washing = False # this is a way you can break the loop
+# another way of writing this 
+
+while True: # this is saying whilse something is true it should do something until it is false 
+    print("hello") # this would print hello until the while loop turns false or the program is closed
+    break # this is another way to break the loop as well
+
+while 1:
+    print("hello") # this is the same this as saying while True but the number 1 is equal to 
+    
+# you can apply the same concept to false as well
+
+# you can also use while loops for math equations as well
+
+a = 6 # setting the variable a equal to 6 
+while a == 6: # this is saying while variable a is equal to 6 you want it to do something until the value changes or the loop is broken
+    print("hello") # hello will be printed until the loop is broken
+    a = 7 # this is one way of breaking the loop in while loop math equations
+
+#-------------------------
+# For loops
+#-------------------------
+
+a = 50 # setting variable a equal to 50 
+for i in range(a): # this is saying for each number in variable a you want to do something for the amount stated
+    print("hey") # it would print hey 50 times
+
+# another way of writing this 
+
+for i in range(50): # instead of setting a variable you can do it straight forward it basically does the same thing, for each number in 50 it would do something for that amount
+    print("hey") # this would print hey 50 times
+
